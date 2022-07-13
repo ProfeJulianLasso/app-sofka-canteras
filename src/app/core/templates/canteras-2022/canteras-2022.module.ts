@@ -7,11 +7,12 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatExpansionModule } from '@angular/material/expansion';
 
 // Components
-import { HeaderComponent } from './header/header.component';
-import { MainMenuComponent } from './main-menu/main-menu.component';
-import { FooterComponent } from './footer/footer.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { MainMenuComponent } from './components/main-menu/main-menu.component';
 
 @NgModule({
   declarations: [HeaderComponent, MainMenuComponent, FooterComponent],
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     MatIconModule,
     MatCardModule,
     MatButtonModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatExpansionModule
   ],
   exports: [HeaderComponent, MainMenuComponent, FooterComponent]
 })
