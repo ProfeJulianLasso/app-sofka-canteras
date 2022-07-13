@@ -1,0 +1,82 @@
+/* +++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Tamaño del scroll */
+
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  // display: none;
+}
+
+/* Estilos barra (thumb) de scroll */
+
+body::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background-color: var(--accent-color);
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-color);
+  box-shadow: 0 0 2px 1px rgba(var(--accent-color), 0.2);
+}
+
+/* Estilos track de scroll */
+
+body::-webkit-scrollbar-track {
+  background: var(--backgraund-light-color);
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track:hover,
+body::-webkit-scrollbar-track:active {
+  background: var(--backgraund-light-color);
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Tamaño del scroll */
+
+.mat-select-panel::-webkit-scrollbar,
+.mat-dialog-content::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  // display: none;
+}
+
+/* Estilos barra (thumb) de scroll */
+
+.mat-select-panel::-webkit-scrollbar-thumb,
+.mat-dialog-content::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+.mat-select-panel::-webkit-scrollbar-thumb:active,
+.mat-dialog-content::-webkit-scrollbar-thumb:active {
+  background-color: var(--accent-color);
+}
+
+.mat-select-panel::-webkit-scrollbar-thumb:hover,
+.mat-dialog-content::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-color);
+  box-shadow: 0 0 2px 1px rgba(var(--accent-color), 0.2);
+}
+
+/* Estilos track de scroll */
+
+.mat-select-panel::-webkit-scrollbar-track,
+.mat-dialog-content::-webkit-scrollbar-track {
+  background: var(--backgraund-light-color);
+  border-radius: 4px;
+}
+
+.mat-select-panel::-webkit-scrollbar-track:hover,
+.mat-select-panel::-webkit-scrollbar-track:active,
+.mat-dialog-content::-webkit-scrollbar-track:hover,
+.mat-dialog-content::-webkit-scrollbar-track:active {
+  background: var(--backgraund-light-color);
+}

@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+@use './app/core/templates/canteras-2022/theme.scss';
+@use './app/core/templates/canteras-2022/scroll.scss';
+
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  background: url(./assets/img/background.png) fixed;
+  background-size: cover;
+  opacity: 0.98;
+}
+
+.sofka-container {
+  // border: 1px solid #c3c3c3;
+}
+
+// XS
+@media only screen and (max-width: 575px) {
+  .sofka-container {
+    width: 100%;
+  }
+}
+
+// SM
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .sofka-container {
+    width: 540px;
+    margin: 0 auto;
+  }
+}
+
+// MD
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sofka-container {
+    width: 720px;
+    margin: 0 auto;
+  }
+}
+
+// LG
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .sofka-container {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+
+// XL
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .sofka-container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+}
+
+// XXL
+@media only screen and (min-width: 1400px) {
+  .sofka-container {
+    width: 1320px;
+    margin: 0 auto;
+  }
+}
+
+.mat-card {
+  background-color: var(--backgraund-light-color);
+}

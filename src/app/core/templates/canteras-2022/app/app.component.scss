@@ -1,0 +1,32 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.container-flex {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.container-main-menu {
+  flex-grow: 1;
+  margin-right: 8px;
+}
+
+.container-main {
+  flex-grow: 5;
+  margin-left: 8px;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  background: var(--primary-color);
+  height: auto;
+  color: var(--text-primary-color);
+}
