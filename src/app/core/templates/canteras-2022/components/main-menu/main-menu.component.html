@@ -1,18 +1,21 @@
 <mat-accordion>
-  <mat-expansion-panel>
+  <mat-expansion-panel *ngFor="let item of ejemplo" expanded="true">
     <mat-expansion-panel-header>
-      <mat-panel-title>
-        This is the expansion title
+      <mat-panel-title #matpanelTitle>
+        {{ item.title }}
       </mat-panel-title>
     </mat-expansion-panel-header>
-    <p>This is the primary content of the panel.</p>
-  </mat-expansion-panel>
-  <mat-expansion-panel>
-    <mat-expansion-panel-header>
-      <mat-panel-title>
-        Self aware panel
-      </mat-panel-title>
-    </mat-expansion-panel-header>
-    <p>I'm visible because I am open</p>
+    <mat-nav-list>
+      <mat-list-item *ngFor="let page of item.pages" [routerLink]="page.url" routerLinkActive="active"
+        [ngxTippy]="page.ellipsis ? page.title : null">
+        <a matLine>
+          <div class="icon-margin-right">
+            <mat-icon mat-icon-button>{{ page.icon }}</mat-icon>
+          </div>
+          <div #titleContent class="text-overflow-ellipsis">
+            {{ page.title }}</div>
+        </a>
+      </mat-list-item>
+    </mat-nav-list>
   </mat-expansion-panel>
 </mat-accordion>

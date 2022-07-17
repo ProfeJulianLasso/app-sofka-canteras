@@ -36,6 +36,19 @@
   margin-left: 8px;
 }
 
+// FHD
+@media only screen and (min-width: 1920px) {
+  .container-main-menu {
+    width: 25%;
+    margin-right: 8px;
+  }
+
+  .container-main {
+    width: 75%;
+    margin-left: 8px;
+  }
+}
+
 .footer {
   position: sticky;
   bottom: 0;
