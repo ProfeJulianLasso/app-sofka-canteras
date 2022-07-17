@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 // Components
-import { IndexComponent } from './index/index.component';
-import { ContenidoComponent } from './contenido/contenido.component';
+import { IndexComponent } from './components/index/index.component';
+import { ContenidoComponent } from './components/contenido/contenido.component';
 
 const routes: Routes = [
   { path: '', component: IndexComponent },

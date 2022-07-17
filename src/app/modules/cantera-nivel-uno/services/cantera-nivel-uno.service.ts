@@ -1,21 +1,14 @@
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { MainMenuService } from '@template/canteras-2022/services/main-menu.service';
+import { Injectable } from '@angular/core';
+import { MainMenuInterface } from '@template/canteras-2022/models/main-menu.model';
 
-@Component({
-  templateUrl: './contenido.component.html',
-  styleUrls: ['./contenido.component.scss']
+@Injectable({
+  providedIn: 'root'
 })
-export class ContenidoComponent implements OnInit {
-  constructor(
-    private route: ActivatedRoute,
-    private mainMenu$: MainMenuService
-  ) { }
+export class CanteraNivelUnoService {
+  constructor() {}
 
-  ngOnInit(): void {
-    console.log('seman', this.route.snapshot.paramMap.get('semana'));
-    console.log('contenido', this.route.snapshot.paramMap.get('contenido'));
-    this.mainMenu$.MainMenu = new Array({
+  getMainMenu(): Array<MainMenuInterface> {
+    return new Array({
       title: 'Primera semana',
       pages: [
         {
