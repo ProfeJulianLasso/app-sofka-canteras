@@ -30,6 +30,7 @@ export class ContenidoComponent implements OnInit {
         url[0].path,
         url[1].path
       ]);
+      this.mainMenu$.PanelExpanded = url[0].path;
     });
   }
 }

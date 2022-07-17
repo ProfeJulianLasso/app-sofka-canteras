@@ -1,5 +1,5 @@
 <mat-accordion>
-  <mat-expansion-panel *ngFor="let item of mainMenu" expanded="true">
+  <mat-expansion-panel *ngFor="let item of mainMenu" [expanded]="isPanelExpanded(item.id)">
     <mat-expansion-panel-header>
       <mat-panel-title #matpanelTitle>
         {{ item.title }}

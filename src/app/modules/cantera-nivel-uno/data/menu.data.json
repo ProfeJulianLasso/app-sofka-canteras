@@ -1,5 +1,6 @@
 [
   {
+    "id": "semana-1",
     "title": "PRIMERA SEMANA",
     "pages": [
       {
@@ -29,28 +30,29 @@
     ]
   },
   {
+    "id": "semana-2",
     "title": "SEGUNDA SEMANA",
     "pages": [
       {
-        "url": ["./", "cantera-nivel-1", "semana-1", "hola-mundo"],
+        "url": ["./", "cantera-nivel-1", "semana-2", "hola-mundo"],
         "title": "Backend y Frontend con Spring Boot",
         "ellipsis": false,
         "icon": "description"
       },
       {
-        "url": ["./", "cantera-nivel-1", "semana-1", "otro-mundo"],
+        "url": ["./", "cantera-nivel-1", "semana-2", "otro-mundo"],
         "title": "Esto es otro mundo",
         "ellipsis": false,
         "icon": "description"
       },
       {
-        "url": ["./", "cantera-nivel-1", "semana-1", "trota-mundos"],
+        "url": ["./", "cantera-nivel-1", "semana-2", "trota-mundos"],
         "title": "Trotando por todos los mundos",
         "ellipsis": false,
         "icon": "description"
       },
       {
-        "url": ["./", "cantera-nivel-1", "semana-1", "otro-mundo-2"],
+        "url": ["./", "cantera-nivel-1", "semana-2", "otro-mundo-2"],
         "title": "Esto es otro mundo 2",
         "ellipsis": false,
         "icon": "description"

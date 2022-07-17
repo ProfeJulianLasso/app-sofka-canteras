@@ -36,6 +36,10 @@ export class MainMenuComponent implements OnInit, AfterViewInit {
     this.forEachElement(this.myDOMelement);
   }
 
+  isPanelExpanded(id: string): boolean {
+    return this.mainMenu$.PanelExpanded === id;
+  }
+
   private forEachElement(collectionElements: HTMLElement): void {
     Array.prototype.forEach.call(collectionElements, (element: HTMLElement) => {
       // console.log(element.innerHTML);
