@@ -1,0 +1,22 @@
+[
+  {
+    "url": ["./", "cantera-nivel-1", "semana-1", "hola-mundo"],
+    "data": [
+      {
+        "title": "Titulo del contenido",
+        "content": "Esto es el contenido en HTML<br><img src=\"https://cdn.diferenciador.com/imagenes/partes-de-la-flor-og.jpg\" class=\"img-responsive\">",
+        "actions": [
+          {
+            "title": "ANTERIOR",
+            "url": "segundo"
+          },
+          {
+            "title": "SIGUIENTE",
+            "url": ["../../../", "cantera-nivel-1", "semana-1", "otro-mundo"],
+            "color": "accent"
+          }
+        ]
+      }
+    ]
+  }
+]

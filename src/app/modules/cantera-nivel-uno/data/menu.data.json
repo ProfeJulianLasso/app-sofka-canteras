@@ -1,0 +1,60 @@
+[
+  {
+    "title": "PRIMERA SEMANA",
+    "pages": [
+      {
+        "url": ["./", "cantera-nivel-1", "semana-1", "hola-mundo"],
+        "title": "Backend y Frontend con Spring Boot",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-1", "otro-mundo"],
+        "title": "Esto es otro mundo",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-1", "trota-mundos"],
+        "title": "Trotando por todos los mundos",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-1", "otro-mundo-2"],
+        "title": "Esto es otro mundo 2",
+        "ellipsis": false,
+        "icon": "description"
+      }
+    ]
+  },
+  {
+    "title": "SEGUNDA SEMANA",
+    "pages": [
+      {
+        "url": ["./", "cantera-nivel-1", "semana-1", "hola-mundo"],
+        "title": "Backend y Frontend con Spring Boot",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-1", "otro-mundo"],
+        "title": "Esto es otro mundo",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-1", "trota-mundos"],
+        "title": "Trotando por todos los mundos",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-1", "otro-mundo-2"],
+        "title": "Esto es otro mundo 2",
+        "ellipsis": false,
+        "icon": "description"
+      }
+    ]
+  }
+]

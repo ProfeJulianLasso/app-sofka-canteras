@@ -1,5 +1,8 @@
-import { ActivatedRoute } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+
+// Models
+import { ContentInterface } from '../../models/content.model';
 
 // Services
 import { CanteraNivelUnoService } from '../../services/cantera-nivel-uno.service';
@@ -10,15 +13,23 @@ import { MainMenuService } from '@template/canteras-2022/services/main-menu.serv
   styleUrls: ['./contenido.component.scss']
 })
 export class ContenidoComponent implements OnInit {
+  contenido!: ContentInterface;
+
   constructor(
-    private route: ActivatedRoute,
     private mainMenu$: MainMenuService,
+    private activatedRoute: ActivatedRoute,
     private canteraNivelUno$: CanteraNivelUnoService
   ) {}
 
-  ngOnInit(): void {
-    console.log('seman', this.route.snapshot.paramMap.get('semana'));
-    console.log('contenido', this.route.snapshot.paramMap.get('contenido'));
+  ngOnInit() {
     this.mainMenu$.MainMenu = this.canteraNivelUno$.getMainMenu();
+    this.activatedRoute.url.subscribe((url) => {
+      this.contenido = this.canteraNivelUno$.getContent([
+        './',
+        'cantera-nivel-1',
+        url[0].path,
+        url[1].path
+      ]);
+    });
   }
 }
