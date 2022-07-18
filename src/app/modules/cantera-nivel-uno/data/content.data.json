@@ -1,18 +1,122 @@
 [
   {
-    "url": ["./", "cantera-nivel-1", "semana-1", "hola-mundo"],
+    "url": ["./", "cantera-nivel-1", "aspectos-generales", "introduccion"],
     "data": [
       {
-        "title": "Titulo del contenido",
-        "content": "Esto es el contenido en HTML<br><img src=\"https://cdn.diferenciador.com/imagenes/partes-de-la-flor-og.jpg\" class=\"img-responsive\">",
+        "title": "Introducción",
+        "content": "<div class=text-align-center><iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"allowfullscreen frameborder=0 height=315 src=https://www.youtube.com/embed/NoBevAOf68E title=\"YouTube video player\"width=560></iframe></div>",
+        "actions": [
+          {
+            "title": "SIGUIENTE",
+            "url": ["../../../", "cantera-nivel-1", "semana-1", "introduccion-al-desarrollo-de-software"],
+            "color": "accent"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": ["./", "cantera-nivel-1", "semana-1", "introduccion-al-desarrollo-de-software"],
+    "data": [
+      {
+        "title": "Introducción al Desarrollo de Software",
+        "content": "<div class=text-align-center><iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"allowfullscreen frameborder=0 height=315 src=https://www.youtube.com/embed/WwJA__bL1u0 title=\"YouTube video player\"width=560></iframe></div>",
         "actions": [
           {
             "title": "ANTERIOR",
-            "url": "segundo"
+            "url": ["../../../", "cantera-nivel-1", "aspectos-generales", "introduccion"]
           },
           {
             "title": "SIGUIENTE",
-            "url": ["../../../", "cantera-nivel-1", "semana-1", "otro-mundo"],
+            "url": ["../../../", "cantera-nivel-1", "semana-1", "instalacion-de-pseint"],
+            "color": "accent"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": ["./", "cantera-nivel-1", "semana-1", "instalacion-de-pseint"],
+    "data": [
+      {
+        "title": "Instalación de PSeInt",
+        "content": "<div class=text-align-center><iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\"allowfullscreen frameborder=0 height=315 src=https://www.youtube.com/embed/eJL_kE2EclI title=\"YouTube video player\"width=560></iframe></div>",
+        "actions": [
+          {
+            "title": "ANTERIOR",
+            "url": ["../../../", "cantera-nivel-1", "semana-1", "introduccion-al-desarrollo-de-software"]
+          },
+          {
+            "title": "SIGUIENTE",
+            "url": ["../../../", "cantera-nivel-1", "semana-1", "pseint-variables"],
+            "color": "accent"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": ["./", "cantera-nivel-1", "semana-1", "pseint-variables"],
+    "data": [
+      {
+        "title": "",
+        "content": "<p>Cuando se inicia un nuevo programa con PSeInt, se obtiene una imagen como la siguiente:<p class=text-align-center><img class=img-responsive src=\"../assets/img/1643605271_01. EstadoInicial.png\"style=max-width:633px><ol><li>En esta parte escribimos el nombre de nuestra aplicación, esta no debe de contener espacios en blanco. Si nuestro código lo fuésemos a llamar <span style=font-style:italic>Mi Primera App</span>, las formas correctas de nombrar nuestro código, serían las siguientes: <span style=font-style:italic>MiPrimeraApp</span>,<span style=font-style:italic>mi_primera_app</span> o también <span style=font-style:italic>miPrimeraApp</span>.<li>El botón Comenzar, sirve para poder ejecutar el código escrito y ver el resultado del mismo en una consola.<li>Todo código tiene un comienzo y en PSeInt el comienzo del código se dicta con la palabra <span style=font-weight:700>Proceso</span>, seguido del nombre del código.<li>Todo código termina con la palabra <span style=font-weight:700>FinProceso</span>, esto le dice al PSeInt dónde cierra el código al ser ejecutado.</ol>"
+      },
+      {
+        "title": "Variables",
+        "content": "<p>Actualmente para poder almacenar información en programación, se debe crear un espacio en memoria bajo un nombre, dicho espacio en memoria se llama variable.<p>Las variables en PSeInt, las hay de cuatro tipos:<ul><li>Caracter<li>Real<li>Entero<li>Lógico</ul>"
+      },
+      {
+        "title": "Variable tipo Caracter",
+        "content": "<p>Las variables de tipo <span style=font-weight:700>Caracter</span>, son usadas comúnmente para almacenar información como nombres, es decir, cadenas de caracteres, una sola letra e incluso números, con la peculiaridad de que estos números no podrán ser usados en un futuro para temas operacionales como, sumar, restar, multiplicar, dividir, entre otros.</p><p class=text-align-center><img src=\"../assets/img/1643605182_02. VariableCaracter.png\"style=max-width:633px>"
+      },
+      {
+        "title": "Variable tipo Real",
+        "content": "<p>Las variables de tipo <span style=font-weight:700>Caracter</span>, son usadas comúnmente para almacenar información como nombres, es decir, cadenas de caracteres, una sola letra e incluso números, con la peculiaridad de que estos números no podrán ser usados en un futuro para temas operacionales como, sumar, restar, multiplicar, dividir, entre otros.<p class=text-align-center><img src=\"../assets/img/1643605169_03. VariableReal.png\"style=max-width:633px>"
+      },
+      {
+        "title": "Variable tipo Entero",
+        "content": "<p>Las variables de tipo <span style=font-weight:700>Entero</span>, son usadas para guardar número enteros, es decir, números sin su parte decimal. También con la posibilidad de guardar tanto número positivos como número negativos. Por ejemplo, la edad de una persona.<p class=text-align-center><img src=\"../assets/img/1643605080_04. VariableEntero.png\"style=max-width:633px>"
+      },
+      {
+        "title": "Variable tipo Lógico",
+        "content": "<p>Las variables de tipo <span style=font-weight:700>Logico</span>, tienen la capacidad de guardar solo dos valores, Falso o Verdadero. Por ejemplo, el estado de una persona en un sistema: activo o inactivo.<p class=text-align-center><img src=\"../assets/img/1643605352_05. VariableLogico.png\"style=max-width:633px><p>Como se observa en las imágenes anteriores, cada vez se que quiere definir la creación de una variable, es decir, separar espacio en memoria para almacenar un dato, es importante escribir la palabra <span style=font-weight:700>Definir</span>, seguido del nombre de la variable, luego se escribe la palabra <span style=font-weight:700>Como</span> y por último se termina con el nombre del tipo de dato que se desea crear: <span style=font-weight:700>Caracter</span>, <span style=font-weight:700>Real</span>, <span style=font-weight:700>Entero</span> o <span style=font-weight:700>Logico</span>.<p>En PSeInt, la forma de poder asignar información a las variables, se hace por medio del signo menor que (&lt;) y un guión medio o signo menos (-). A continuación en la siguiente imagen, se puede observar la forma en que se asigna información a cada una de las variables declaradas.<p class=text-align-center><img src=\"../assets/img/1643605736_06. AsignaciónDeValores.png\"style=max-width:633px><p>Como se observa en la <span style=font-weight:700>línea 8</span>, para poder asignar un carácter o cadena de caracteres a una variable, este debe de ir encerrado entre comillas dobles (\"...\") o entre comillas simples ('...'). La combinación de comillas dobles y comillas simples no está permitida y el programa al compilar puede generar un error.<p>Como se observa en la <span style=font-weight:700>línea 9</span>, los números reales en su parte decimal, en PSeInt se define por medio de un punto (.) y no con una coma (,)<p>Tanto en la <span style=font-weight:700>línea 11</span> como la <span style=font-weight:700>línea 12</span>, se está asignando los valores de <span style=font-weight:700>Falso</span> y <span style=font-weight:700>Verdadero</span>, esto con el fin de usted como estudiante pueda tener una mejor referencia en la asignación de uno de estos dos valores.<p>Por último y no menos importante, tenga muy presente que toda línea, a excepción de la primera y la última, siempre terminan con el signo punto y coma (;)"
+      },
+      {
+        "title": "Capturar información del teclado en una variable",
+        "content": "<p>Para poder capturar información que introduce un usuario por medio del teclado en una variable, se debe usar la palabra <span style=font-weight:700>Leer</span> seguido del nombre de la variable donde se quiere capturar la información, así como se nos muestra en la siguiente imagen.<p class=text-align-center><img src=\"../assets/img/1643608239_06. CapturaDeInformación.gif\"style=max-width:776px>",
+        "actions": [
+          {
+            "title": "ANTERIOR",
+            "url": ["../../../", "cantera-nivel-1", "semana-1", "instalacion-de-pseint"]
+          },
+          {
+            "title": "SIGUIENTE",
+            "url": ["../../../", "cantera-nivel-1", "semana-1", "pseint-impresion-en-pantalla"],
+            "color": "accent"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "url": ["./", "cantera-nivel-1", "semana-1", "pseint-impresion-en-pantalla"],
+    "data": [
+      {
+        "title": "Impresión en pantalla",
+        "content": "<p>Cuando se inicia un nuevo programa con PSeInt, se obtiene una imagen como la siguiente<p class=text-align-center><img class=img-responsive src=\"../assets/img/1643605271_01. EstadoInicial.png\"style=max-width:633px><ol><li>En esta parte escribimos el nombre de nuestra aplicación, esta no debe de contener espacios en blanco. Si nuestro código lo fuésemos a llamar <span style=font-style:italic>Mi Primera App</span>, las formas correctas de nombrar nuestro código, serían las siguientes: <span style=font-style:italic>MiPrimeraApp</span>,<span style=font-style:italic>mi_primera_app</span> o también <span style=font-style:italic>miPrimeraApp</span>.<li>El botón Comenzar, sirve para poder ejecutar el código escrito y ver el resultado del mismo en una consola.<li>Todo código tiene un comienzo y en PSeInt el comienzo del código se dicta con la palabra <span style=font-weight:700>Proceso</span>, seguido del nombre del código.<li>Todo código termina con la palabra <span style=font-weight:700>FinProceso</span>, esto le dice al PSeInt dónde cierra el código al ser ejecutado.</ol>"
+      },
+      {
+        "title": "Capturar información del teclado en una variable",
+        "content": "<p>Para poder capturar información que introduce un usuario por medio del teclado en una variable, se debe usar la palabra <span style=font-weight:700>Leer</span> seguido del nombre de la variable donde se quiere capturar la información, <span style=font-weight:700></span>así como se nos muestra en la siguiente imagen.<p class=text-align-center><img src=\"../assets/img/1643608239_06. CapturaDeInformación.gif\"style=max-width:776px>",
+        "actions": [
+          {
+            "title": "ANTERIOR",
+            "url": ["../../../", "cantera-nivel-1", "semana-1", "pseint-variables"]
+          },
+          {
+            "title": "SIGUIENTE",
+            "url": ["../../../", "cantera-nivel-1", "semana-1", "taller-1-de-pseint"],
             "color": "accent"
           }
         ]

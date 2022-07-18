@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
 // Models
 import { ContentInterface } from '../../models/content.model';
@@ -16,6 +17,7 @@ export class ContenidoComponent implements OnInit {
   contenido!: ContentInterface;
 
   constructor(
+    private sanitizer: DomSanitizer,
     private mainMenu$: MainMenuService,
     private activatedRoute: ActivatedRoute,
     private canteraNivelUno$: CanteraNivelUnoService
@@ -32,5 +34,9 @@ export class ContenidoComponent implements OnInit {
       ]);
       this.mainMenu$.PanelExpanded = url[0].path;
     });
+  }
+
+  safeHtml(data: string | HTMLElement): SafeHtml {
+    return this.sanitizer.bypassSecurityTrustHtml(data.toString());
   }
 }

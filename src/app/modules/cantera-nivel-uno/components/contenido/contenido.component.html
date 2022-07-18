@@ -3,11 +3,15 @@
 </ng-template>
 <div *ngIf="contenido.url; else sinContenido" class="content">
   <mat-card *ngFor="let data of contenido.data">
-    <mat-card-title>{{ data.title }}</mat-card-title>
-    <mat-card-content [innerHTML]="data.content"></mat-card-content>
+    <mat-card-title *ngIf="data.title.length > 0">
+      {{ data.title }}
+    </mat-card-title>
+    <mat-card-content class="text-reader" [innerHTML]="safeHtml(data.content)"></mat-card-content>
     <mat-card-actions align="end" *ngIf="data.actions">
       <button *ngFor="let button of data.actions" mat-button [routerLink]="button.url"
-        [color]="button.color ? button.color : 'default'">{{ button.title | uppercase }}</button>
+        [color]="button.color ? button.color : 'default'">
+        {{ button.title | uppercase }}
+      </button>
     </mat-card-actions>
   </mat-card>
 </div>
