@@ -1,6 +1,10 @@
 @use './app/core/templates/canteras-2022/theme.scss';
 @use './app/core/templates/canteras-2022/scroll.scss';
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 body {
   margin: 0;
   font-family: Roboto, 'Helvetica Neue', sans-serif;
@@ -142,4 +146,18 @@ body {
 .img-responsive {
   width: 100%;
   height: auto;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-reader {
+  line-height: 1.3em;
+  ol,
+  ul {
+    li {
+      margin-bottom: 16px;
+    }
+  }
 }
