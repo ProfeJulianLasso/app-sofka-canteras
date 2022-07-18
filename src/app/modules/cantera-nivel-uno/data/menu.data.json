@@ -1,61 +1,241 @@
 [
   {
-    "id": "semana-1",
-    "title": "PRIMERA SEMANA",
+    "id": "aspectos-generales",
+    "title": "ASPECTOS GENALES",
     "pages": [
       {
-        "url": ["./", "cantera-nivel-1", "semana-1", "hola-mundo"],
-        "title": "Backend y Frontend con Spring Boot",
+        "url": ["./", "cantera-nivel-1", "aspectos-generales", "introduccion"],
+        "title": "Introducción",
+        "ellipsis": false,
+        "icon": "play_circle"
+      }
+    ]
+  },
+  {
+    "id": "semana-1",
+    "title": "SEMANA 1: INTRODUCCIÓN Y LÓGICA",
+    "pages": [
+      {
+        "url": ["./", "cantera-nivel-1", "semana-1", "introduccion-al-desarrollo-de-software"],
+        "title": "Introducción al desarrollo de software",
+        "ellipsis": false,
+        "icon": "play_circle"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-1", "instalacion-de-pseint"],
+        "title": "Instalación de PSeInt",
+        "ellipsis": false,
+        "icon": "play_circle"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-1", "pseint-variables"],
+        "title": "Lógica de programación con PSeInt: Variables",
         "ellipsis": false,
         "icon": "description"
       },
       {
-        "url": ["./", "cantera-nivel-1", "semana-1", "otro-mundo"],
-        "title": "Esto es otro mundo",
+        "url": ["./", "cantera-nivel-1", "semana-1", "pseint-impresion-en-pantalla"],
+        "title": "Lógica de programación con PSeInt: Impresión en pantalla",
         "ellipsis": false,
         "icon": "description"
       },
       {
-        "url": ["./", "cantera-nivel-1", "semana-1", "trota-mundos"],
-        "title": "Trotando por todos los mundos",
+        "url": ["./", "cantera-nivel-1", "semana-1", "taller-1-de-pseint"],
+        "title": "Taller de PSeInt #1: Variables e impresión",
+        "ellipsis": false,
+        "icon": "draw"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-1", "pseint-condicionales"],
+        "title": "Lógica de programación con PSeInt: Condicionales",
         "ellipsis": false,
         "icon": "description"
       },
       {
-        "url": ["./", "cantera-nivel-1", "semana-1", "otro-mundo-2"],
-        "title": "Esto es otro mundo 2",
+        "url": ["./", "cantera-nivel-1", "semana-1", "taller-2-de-pseint"],
+        "title": "Taller de PSeInt #2: Condicionales",
+        "ellipsis": false,
+        "icon": "draw"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-1", "pseint-ciclos"],
+        "title": "Lógica de programación con PSeInt: Ciclos",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-1", "taller-3-de-pseint"],
+        "title": "Taller de PSeInt #3: Ciclos",
+        "ellipsis": false,
+        "icon": "draw"
+      }
+    ]
+  },
+  {
+    "id": "semana-2",
+    "title": "SEMANA 2: LÓGICA DE PROGRAMACIÓN Y VERSIONAMIENTO DEL CÓDIGO",
+    "pages": [
+      {
+        "url": ["./", "cantera-nivel-1", "semana-2", "pseint-arreglos"],
+        "title": "Lógica de programación con PSeInt: Arreglos (vectores y matrices)",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-2", "taller-4-de-pseint"],
+        "title": "Taller de PSeInt #4: Arreglos",
+        "ellipsis": false,
+        "icon": "draw"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-2", "pseint-funciones"],
+        "title": "Lógica de programación con PSeInt: Funciones ",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-2", "taller-5-de-pseint"],
+        "title": "Taller de PSeInt #5: Funciones",
+        "ellipsis": false,
+        "icon": "draw"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-2", "sistema-de-control-de-versiones-git"],
+        "title": "Sistema de control de versiones Git",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-2", "taller-de-control-de-versiones-con-github"],
+        "title": "Taller de control de versiones con Github",
         "ellipsis": false,
         "icon": "description"
       }
     ]
   },
   {
-    "id": "semana-2",
-    "title": "SEGUNDA SEMANA",
+    "id": "semana-3",
+    "title": "SEMANA 3: PROGRAMACIÓN EN JAVA",
     "pages": [
       {
-        "url": ["./", "cantera-nivel-1", "semana-2", "hola-mundo"],
-        "title": "Backend y Frontend con Spring Boot",
+        "url": ["./", "cantera-nivel-1", "semana-3", "instalacion-y-configuracion-del-ide-y-jdk-para-java"],
+        "title": "Instalación y configuración del IDE y JDK para Java",
         "ellipsis": false,
         "icon": "description"
       },
       {
-        "url": ["./", "cantera-nivel-1", "semana-2", "otro-mundo"],
-        "title": "Esto es otro mundo",
+        "url": ["./", "cantera-nivel-1", "semana-3", "java-variables-e-impresion"],
+        "title": "Java: Variables e impresión",
         "ellipsis": false,
         "icon": "description"
       },
       {
-        "url": ["./", "cantera-nivel-1", "semana-2", "trota-mundos"],
-        "title": "Trotando por todos los mundos",
+        "url": ["./", "cantera-nivel-1", "semana-3", "java-clases-y-operadores-de-acceso"],
+        "title": "Java: Clases y operadores de acceso",
         "ellipsis": false,
         "icon": "description"
       },
       {
-        "url": ["./", "cantera-nivel-1", "semana-2", "otro-mundo-2"],
-        "title": "Esto es otro mundo 2",
+        "url": ["./", "cantera-nivel-1", "semana-3", "java-operadores-basicos"],
+        "title": "Java: Operadores básicos",
         "ellipsis": false,
         "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-3", "java-ciclos-y-condicionales"],
+        "title": "Java: Ciclos y condicionales",
+        "ellipsis": false,
+        "icon": "description"
+      }
+    ]
+  },
+  {
+    "id": "semana-4",
+    "title": "SEMANA 4: EJERCICIOS Y PRÁCTICAS DE JAVA",
+    "pages": [
+      {
+        "url": ["./", "cantera-nivel-1", "semana-4", "taller-de-java"],
+        "title": "Taller de Java",
+        "ellipsis": false,
+        "icon": "draw"
+      }
+    ]
+  },
+  {
+    "id": "semana-5",
+    "title": "SEMANA 5: FUNDAMENTOS DE PROGRAMACIÓN WEB",
+    "pages": [
+      {
+        "url": ["./", "cantera-nivel-1", "semana-5", "que-es-html5"],
+        "title": "Fundamentos de HTML: ¿Qué es HTML5?",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-5", "estructura-de-un-documento-html5"],
+        "title": "Fundamentos de HTML: Estructura de un documento HTML5",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-5", "etiquetas-basicas-html5"],
+        "title": "Fundamentos de HTML: Etiquetas básicas",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-5", "imagenes-listas-y-enlaces-html5"],
+        "title": "Fundamentos de HTML: Imágenes, listas y enlaces",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-5", "taller-de-html5"],
+        "title": "Taller de HTML5",
+        "ellipsis": false,
+        "icon": "draw"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-5", "fundamentos-de-css3"],
+        "title": "Fundamentos de CSS3",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-5", "taller-de-css"],
+        "title": "Taller de CSS: Clases y Selectores",
+        "ellipsis": false,
+        "icon": "draw"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-5", "manipulacion-del-dom-javascript"],
+        "title": "Fundamentos de JavaScript: Manipulación del DOM",
+        "ellipsis": false,
+        "icon": "description"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-5", "taller-de-javascript"],
+        "title": "Taller de JavaScript: Manipulación del DOM",
+        "ellipsis": false,
+        "icon": "description"
+      }
+    ]
+  },
+  {
+    "id": "semana-6",
+    "title": "SEMANA 6: PRÁCTICAS Y EVALUACIONES FINALES",
+    "pages": [
+      {
+        "url": ["./", "cantera-nivel-1", "semana-6", "taller-final-de-html5-css-y-javascript"],
+        "title": "Taller final de HTML5, CSS3 y JavaScript",
+        "ellipsis": false,
+        "icon": "draw"
+      },
+      {
+        "url": ["./", "cantera-nivel-1", "semana-6", "taller-final-de-java"],
+        "title": "Taller final de Java",
+        "ellipsis": false,
+        "icon": "draw"
       }
     ]
   }
